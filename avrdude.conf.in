@@ -1379,10 +1379,10 @@ programmer
   id    = "linuxgpio";
   desc  = "Use the Linux sysfs interface to bitbang GPIO lines";
   type  = "linuxgpio";
-  reset = 203;
-  sck   = 66;
-  mosi  = 64;
-  miso  = 65;
+  reset = 7;
+  sck   = 11;
+  mosi  = 10;
+  miso  = 9;
 ;
 
 # some ultra cheap programmers use bitbanging on the 
